@@ -12,7 +12,8 @@ public class DragonSlayer {
 	public DragonSlayer(DragonSlayingStrategy strategy) {
 		this.strategy = strategy;
 	}
-
+	
+	// Set strategy on the fly.
 	public void changeStrategy(DragonSlayingStrategy strategy) {
 		this.strategy = strategy;
 	}
